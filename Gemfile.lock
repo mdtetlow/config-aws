@@ -1,0 +1,17 @@
+PATH
+  remote: .
+  specs:
+    config_aws (0.1.0)
+
+GEM
+  remote: http://rubygems.org/
+  specs:
+
+PLATFORMS
+  x86_64-linux
+
+DEPENDENCIES
+  config_aws!
+
+BUNDLED WITH
+   2.4.1
