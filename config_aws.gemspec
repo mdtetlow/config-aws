@@ -20,9 +20,10 @@ Gem::Specification.new do |spec|
   spec.extra_rdoc_files = ['README.md']
 
   spec.add_development_dependency 'rake', '~> 10.4', '>= 10.4.2'
+  spec.add_development_dependency 'rspec', '~> 3.12'
+  spec.add_development_dependency 'rspec-core', '~> 3.12'
   spec.add_development_dependency 'rubocop', '~> 1.44', '>= 1.44.1'
   spec.add_development_dependency 'rubocop-performance', '~> 1.15', '>= 1.15.2'
   spec.add_development_dependency 'rubocop-rake', '~> 0.6.0'
   spec.add_development_dependency 'rubocop-rspec', '~> 2.18', '>= 2.18.1'
-  # spec.add_dependency '', ''
 end
